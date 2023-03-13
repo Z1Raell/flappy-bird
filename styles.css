@@ -1,0 +1,55 @@
+body {
+    background-color: #92e6bf;
+    font-family: 'Press Start 2P', cursive;
+    background-image: linear-gradient(to right, #92e6bf, #469871 );
+}
+canvas {
+    border: 5px solid #2e2e2e;
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-image: url('/img/Flappy_Bird_Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.end-menu {
+    display: none;
+    margin: 50px auto;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.score-display {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+
+
+#restart-btn {
+    background-color: #323131;
+    border-radius: 7px;
+    color: white;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    font-size: 1em;
+    box-shadow: 5px 5px 6px rgb(0 0 0 / 50%);
+    border-radius: 15px;
+    transition: all .25s ease;
+}
+
+#restart-btn:hover {
+    background-color: #434343;
+    transform: translateY(-2px);
+}
